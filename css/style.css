@@ -1,0 +1,97 @@
+html,
+body {
+  background: url(../img/background.jpg) no-repeat center center;
+  background-size: cover;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  color: #444452;
+}
+
+a {
+  color: #644da7;
+  text-decoration: none;
+  transition: 2s;
+}
+
+a:hover {
+  color: #ab1b73;
+  text-decoration: none;
+}
+
+.site-title {
+  padding-top: 40vh;
+  padding-bottom: 30vh;
+}
+
+.site-title h1 {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+}
+
+.site-title h4 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.9);
+  margin-top: 5vh;
+  padding: 3rem;
+  border-radius: .8rem;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: #444452;
+}
+
+.form-container .form-group::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(45deg, #644da7 0%, #ab1b73 100%);
+  display: block;
+}
+
+.form-container .btn {
+  width: 100%;
+  padding: .6rem;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  border-radius: 0;
+}
+
+.form-container .btn-success {
+  background: linear-gradient(45deg, #644da7 0%, #ab1b73 100%);
+  border: none;
+  transition: 2s;
+}
+
+.form-container .btn-success:hover {
+  background: linear-gradient(95deg, #ab1b73 0%, #524088 100%);
+}
+
+.form-container .btn-social {
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.form-container .btn-google {
+  background: #dc4a38;
+}
+
+.form-container .btn-facebook {
+  background: #3b5998;
+}
+
+.form-container .btn-twitter {
+  background: #3cf;
+}
+/*# sourceMappingURL=style.css.map */

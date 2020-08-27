@@ -1,0 +1,111 @@
+@import './variables';
+
+
+html,
+body {
+    background: url(../img/background.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    font-family: $text-font;
+    font-size: 14px;
+    line-height: 2;
+    color: $primary-color;
+
+}
+
+a {
+    color: $secondary-color;
+    text-decoration: none;
+    transition: 2s;
+
+    &:hover {
+        color: $accent-color;
+        text-decoration: none;
+    }
+}
+
+// site-title style
+.site-title {
+    padding-top: 40vh;
+    padding-bottom: 30vh;
+
+    h1 {
+        color: $transparent-color;
+        font-weight: bold;
+    }
+
+    h4 {
+        color: $transparent-color;
+    }
+}
+
+
+// form style
+
+.form-container {
+    background: $transparent-color;
+    margin-top: 5vh;
+    padding: 3rem;
+    border-radius: .8rem;
+
+    .form-group {
+
+        input {
+            width: 100%;
+            background: none;
+            border: none;
+            outline: none;
+            color: $primary-color;
+        }
+
+        &::after {
+            content: '';
+            height: 2px;
+            width: 100%;
+            background: $gradient-color;
+            display: block;
+        }
+
+    }
+
+    .btn {
+        width: 100%;
+        padding: .6rem;
+        font-size: .9rem;
+        letter-spacing: .1rem;
+        border-radius: 0;
+
+    }
+
+    .btn-success {
+        background: $gradient-color;
+        border: none;
+        transition: 2s;
+
+        &:hover {
+            background: $gradient-color1;
+        }
+
+    }
+
+    .btn-social {
+        margin-bottom: 1rem;
+        color: $transparent-color
+    }
+
+    .btn-google {
+        background: #dc4a38;
+    }
+
+    .btn-facebook {
+        background: #3b5998;
+    }
+
+    .btn-twitter {
+        background: #3cf;
+    }
+
+}
